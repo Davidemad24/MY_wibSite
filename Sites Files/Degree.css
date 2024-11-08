@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 7.5px 13px;
+    border-bottom: 5px solid rgb(255, 134, 134);
+}
+nav h1{
+    cursor: pointer;
+}
+nav h1 span{
+    color: rgb(255, 134, 134);
+    font-size: xx-large;
+}
+nav ul{
+    list-style: none;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7.5px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+nav li a:hover{
+    background-color: rgb(255, 134, 134);
+    color: white;
+}
+nav section #Them1 , nav section #Them2{
+    border: none;
+    background-color: rgb(255, 134, 134);
+    font-size: 16px;
+    margin: 8px 5px 0 0;
+    padding: 3px 5px;
+    border-radius: 10px;
+}
+nav section #Them1:hover , nav section #Them2:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+nav section #Them1{
+    display: none;
+    background-color: red;
+    color: white;
+}
+/* ------------------------------------------------------------- Nav -------------------------------------------------------------------*/
+.container{
+    height: fit-content;
+    background-image: url("Pictures/inline_image_preview.jpg");
+    background-size: 100% 100%;
+    padding: 138.3px 100px;
+}
+.container table{
+    width: 100%;
+    border: 4px solid rgb(255, 134, 134);
+}
+th{
+    font-size: 22px;
+    border: 4px solid rgb(255, 134, 134);
+    padding: 10px;
+}
+td{
+    font-size: 22px;
+    text-align: center;
+    border: 4px solid rgb(255, 134, 134);
+    padding: 10px 0;
+}

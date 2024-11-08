@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 7.5px 13px;
+    border-bottom: 5px solid rgb(255, 134, 134);
+}
+nav h1{
+    cursor: pointer;
+}
+nav h1 span{
+    color: rgb(255, 134, 134);
+    font-size: xx-large;
+}
+nav ul{
+    list-style: none;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7.5px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 10px;
+}
+nav li a:hover{
+    background-color: rgb(255, 134, 134);
+    color: white;
+}
+nav section #Them1 , nav section #Them2{
+    border: none;
+    background-color: rgb(255, 134, 134);
+    font-size: 16px;
+    margin: 8px 5px 0 0;
+    padding: 3px 5px;
+    border-radius: 10px;
+}
+nav section #Them1:hover , nav section #Them2:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+nav section #Them1{
+    display: none;
+    background-color: red;
+    color: white;
+}
+/* ------------------------------------------------------------- Nav -------------------------------------------------------------------*/
+.container{
+    height: fit-content;
+    background-image: url("Pictures/inline_image_preview.jpg");
+    background-size: 100% 100%;
+    padding: 100px 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 100px;
+}
+.container a{
+    text-decoration: none;
+    color: black;
+}
+.container .portal .link{
+    background-image: url(Pictures/portal.png);
+}
+.container .myhu .link{
+    background-image: url(Pictures/Myhu.png);
+}
+.container .codeforces .link{
+    background-image: url(Pictures/codeforces.jpeg);
+} 
+.container .github .link{
+    background-image: url(Pictures/github.jpeg);
+}
+.container .roadmap .link{
+    background-image: url(Pictures/roadmap.jpeg);
+}
+.container .hackerrank .link{
+    background-image: url(Pictures/HacherRank.jpeg);
+}
+.container .w3schools .link{
+    background-image: url(Pictures/w3scholls.jpeg);
+}
+.container .elzeroacademy .link{
+    background-image: url(Pictures/elzero\ academy.jpeg.);
+}
+.container .eBooks .link{
+    background-image: url(Pictures/Book\ system\ and\ 1\ more\ page\ -\ Profile\ 1\ -\ Microsoft​\ Edge\ 10_6_2024\ 6_39_32\ PM.png);
+}
+.container .link{
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 10px 5px 0 rgb(255, 134, 134);
+    background-size: 400px 300px;
+}
+.container .link .title{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding: 130px 0;
+    background-image: radial-gradient(circle 800px at center,white,rgba(0, 0, 0, 0.174));
+    display: none;
+}
+.container .link .title h1:hover{
+    color: rgb(255, 134, 134);
+    scale: 1.2;
+}
